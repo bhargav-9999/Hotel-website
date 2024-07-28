@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0d58c92a16.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><a href="#"><h1>Hotel.com</h1></a></div>
+        <div class="nav-bar">
+            <ul>
+                <a href="#"><li><i class="fa-solid fa-bed"></i> Stays</li></a>
+                <a href="#"><li><i class="fa-solid fa-plane-up"></i> Flights</li></a>
+                <a href="#"><li><i class="fa-solid fa-building-columns"></i> Attractions</li></a>
+                <a href="#"><li><i class="fa-solid fa-taxi"></i> Car reantals</li></a>
+            </ul>
+        </div>
+        <div class="signin">
+            <button>Register</button>
+            <button>Sign in</button>
+        </div>
+        <div class="user"><a href="#"><i class="fa-solid fa-circle-user"></i></a></div>
+    </div>
+
+    <div class="search">
+        <div class="input"><input type="text" placeholder="Enter Location here ...."></div>
+        <div class="input"><input type="number" placeholder="1Room / 2Rooms"></div>
+        <div class="input"><input type="date"></div>
+        <button>Search</button>
+    </div>
+
+    <div class="head1">
+        <h2>Stay at our top unique properties</h2>
+        <p>From castles and villas to boats and igloos, we've got it all</p>
+    </div>
+    <div class="container2">
+        <div class="box">
+            <img src="Assets/igloo.jpg" alt="img">
+            <h3>Iced Igloo</h3>
+            <p>ladakh, himachal pradesh</p>
+            <div class="rev">
+                <div class="blue">9.3</div>
+                <div><p>excellent•24 reviews</p></div>
+            </div>
+            <div class="rate"><p>starting from </p> <h3>₹ 16,000</h3></div>
+        </div>
+        <div class="like"><i class="fa-regular fa-heart"></i></div>
+        <div class="box">
+            <img src="Assets/capsule.jpeg" alt="img">
+            <h3>Capsule House</h3>
+            <p>sydney, Australia</p>
+            <div class="rev">
+                <div class="blue">9.8</div>
+                <div><p>excellent•30 reviews</p></div>
+            </div>
+            <div class="rate"><p>starting from </p> <h3>₹ 40,000</h3></div>
+        </div>
+        <div class="like"><i class="fa-regular fa-heart"></i></div>
+        <div class="box">
+            <img src="Assets/wood.jpg" alt="img">
+            <h3>LakeSide view</h3>
+            <p>ladakh, himachal pradesh</p>
+            <div class="rev">
+                <div class="blue">9.0</div>
+                <div><p>excellent•28 reviews</p></div>
+            </div>
+            <div class="rate"><p>starting from </p> <h3>₹ 12,000</h3></div>
+        </div>
+        <div class="like"><i class="fa-regular fa-heart"></i></div>
+        <div class="box">
+            <img src="Assets/shoe.jpg" alt="img">
+            <h3>Shoe House</h3>
+            <p>araku, Andhra Pradesh</p>
+            <div class="rev">
+                <div class="blue">9.5</div>
+                <div><p>excellent•24 reviews</p></div>
+            </div>
+            <div class="rate"><p>starting from </p> <h3>₹ 11,000</h3></div>
+        </div>
+        <div class="like"><i class="fa-regular fa-heart"></i></div>
+    </div>
+
+    <div class="prop">
+        <h1>Most popular properties near you</h1>
+        <p>These are most booked properties</p>
+    </div>
+
+    <div class="container">
+        <div class="filters">
+            <div class="fil-head">Filter by:</div><hr>
+            <div class="fil">
+                <div class="fil1">Filter by Property type:</div>
+                <div class="ele">
+                    <input type="checkbox" id="1">
+                    <label for="1">Villas</label><br>
+                    <input type="checkbox" id="2">
+                    <label for="2">5 Stars</label><br>
+                    <input type="checkbox" id="3">
+                    <label for="3">4 Stars</label><br>
+                    <input type="checkbox" id="4">
+                    <label for="4">3 Stars</label><br>
+                    <input type="checkbox" id="5">
+                    <label for="5">Individual</label><br>
+                </div><hr>
+                <div class="fil1">Filter by Cost:</div>
+                <div class="ele">
+                    <input type="checkbox" id="a">
+                    <label for="a">5000 - 10,000</label><br>
+                    <input type="checkbox" id="b">
+                    <label for="b">11,000 - 20,000</label><br>
+                    <input type="checkbox" id="c">
+                    <label for="c">21,000 - 30,000</label><br>
+                    <input type="checkbox" id="d">
+                    <label for="d">31,000 - 40,000</label><br>
+                    <input type="checkbox" id="e">
+                    <label for="e">50,000 - 1,00,000</label>
+                </div><hr>
+                <div class="fil1">Filter by Rating:</div>
+                <div class="ele">
+                    <input type="checkbox" id="f">
+                    <label for="f">9.0+</label><br>
+                    <input type="checkbox" id="g">
+                    <label for="g">8.0+</label><br>
+                    <input type="checkbox" id="h">
+                    <label for="h">7.0+</label><br>
+                    <input type="checkbox" id="i">
+                    <label for="i">6.0+</label>
+                </div><hr>
+                <div class="fil1">Filter by Facilities:</div>
+                <div class="ele">
+                    <input type="checkbox" id="6">
+                    <label for="6">24-hrs customer desk</label><br>
+                    <input type="checkbox" id="7">
+                    <label for="7">Parking</label><br>
+                    <input type="checkbox" id="8">
+                    <label for="8">Free Wi-fi</label><br>
+                    <input type="checkbox" id="9">
+                    <label for="9">Room Service</label><br>
+                </div>
+            </div>
+        </div>
+        <div class="hotel-disp">
+            <div class="img img-1"><img src="Assets/room1.webp" alt="img" class="room-1"></div>
+            <div class="hotel-abt">
+                <h2>Hotel Transylvania</h2>
+                <p class="star">★★★★★</p>
+                <p> <i class="fa-solid fa-location-dot"></i> Vizag - BeachRoad</p>
+                <p>This Property offers:</p>
+                <p class="break">✓ Breakfast</p>
+                <p class="break">✓ Free-Wifi</p>
+            </div>
+            <div class="hotel-rev">
+                <p>Exellent</p>
+                <div class="rat">8.9</div>
+                <p>190 reviews</p>
+                <div class="cost">
+                    <p>per night before taxes & Fees:</p>
+                    <h3>Rs. 21,000</h3>
+                    <p class="cancel">+Free Cancellation</p>
+                </div>
+            </div>
+            <div class="avail"><button>See availability  ></button></div>
+        </div>
+        <div class="hotel-disp">
+            <div class="img img-1"><img src="Assets/room2.jpg" alt="img" class="room-1"></div>
+            <div class="hotel-abt">
+                <h2>Novotel</h2>
+                <p class="star">★★★★</p>
+                <p> <i class="fa-solid fa-location-dot"></i> Vizag - BeachRoad</p>
+                <p>This Property offers:</p>
+                <p class="break">✓ Breakfast</p>
+                <p class="break">✓ Free-Wifi</p>
+            </div>
+            <div class="hotel-rev">
+                <p>Exellent</p>
+                <div class="rat">9.1</div>
+                <p>153 reviews</p>
+                <div class="cost">
+                    <p>per night before taxes & Fees:</p>
+                    <h3>Rs. 25,000</h3>
+                    <p class="cancel">+Free Cancellation</p>
+                </div>
+            </div>
+            <div class="avail"><button>See availability  ></button></div>
+        </div>
+        <div class="hotel-disp">
+            <div class="img img-1"><img src="Assets/room3.jpg" alt="img" class="room-1"></div>
+            <div class="hotel-abt">
+                <h2>LTI mindtrees</h2>
+                <p class="star">★★★</p>
+                <p><i class="fa-solid fa-location-dot"></i> Vizag - BeachRoad</p>
+                <p>This Property offers:</p>
+                <p class="break">✓ Breakfast</p>
+                <p class="break">✓ Free-Wifi</p>
+            </div>
+            <div class="hotel-rev">
+                <p>Exellent</p>
+                <div class="rat">9.0</div>
+                <p>125 reviews</p>
+                <div class="cost">
+                    <p>per night before taxes & Fees:</p>
+                    <h3>Rs. 15,000</h3>
+                    <p class="cancel">+Free Cancellation</p>
+                </div>
+            </div>
+            <div class="avail"><button>See availability  ></button></div>
+        </div>
+        <div class="hotel-disp">
+            <div class="img img-1"><img src="Assets/room4.jpg" alt="img" class="room-1"></div>
+            <div class="hotel-abt">
+                <h2>Hotel Mysore Palace</h2>
+                <p class="star">★★★★</p>
+                <p><i class="fa-solid fa-location-dot"></i> Vizag - BeachRoad</p>
+                <p>This Property offers:</p>
+                <p class="break">✓ Breakfast</p>
+                <p class="break">✓ Free-Wifi</p>
+            </div>
+            <div class="hotel-rev">
+                <p>Exellent</p>
+                <div class="rat">9.1</div>
+                <p>95 reviews</p>
+                <div class="cost">
+                    <p>per night before taxes & Fees:</p>
+                    <h3>Rs. 17,500</h3>
+                    <p class="cancel">+Free Cancellation</p>
+                </div>
+            </div>
+            <div class="avail"><button>See availability  ></button></div>
+        </div>
+        <div class="hotel-disp">
+            <div class="img img-1"><img src="Assets/room5.jpg" alt="img" class="room-1"></div>
+            <div class="hotel-abt">
+                <h2>Holiday Inn</h2>
+                <p class="star">★★★★</p>
+                <p><i class="fa-solid fa-location-dot"></i> Vizag - BeachRoad</p>
+                <p>This Property offers:</p>
+                <p class="break">✓ Breakfast</p>
+                <p class="break">✓ Free-Wifi</p>
+            </div>
+            <div class="hotel-rev">
+                <p>Exellent</p>
+                <div class="rat">8.5</div>
+                <p>69 reviews</p>
+                <div class="cost">
+                    <p>per night before taxes & Fees:</p>
+                    <h3>Rs. 35,000</h3>
+                    <p class="cancel">+Free Cancellation</p>
+                </div>
+            </div>
+            <div class="avail"><button>See availability  ></button></div>
+        </div>
+        <div class="hotel-disp">
+            <div class="img img-1"><img src="Assets/room6.jpg" alt="img" class="room-1"></div>
+            <div class="hotel-abt">
+                <h2>ITC Towers</h2>
+                <p class="star">★★★★</p>
+                <p><i class="fa-solid fa-location-dot"></i> Vizag - BeachRoad</p>
+                <p>This Property offers:</p>
+                <p class="break">✓ Breakfast</p>
+                <p class="break">✓ Free-Wifi</p>
+            </div>
+            <div class="hotel-rev">
+                <p>Exellent</p>
+                <div class="rat">8.7</div>
+                <p>98 reviews</p>
+                <div class="cost">
+                    <p>per night before taxes & Fees:</p>
+                    <h3>Rs. 30,000</h3>
+                    <p class="cancel">+Free Cancellation</p>
+                </div>
+            </div>
+            <div class="avail"><button>See availability  ></button></div>
+        </div>
+        <div class="hotel-disp">
+            <div class="img img-1"><img src="Assets/room7.jpg" alt="img" class="room-1"></div>
+            <div class="hotel-abt">
+                <h2>Innotel INN</h2>
+                <p class="star">★★★</p>
+                <p><i class="fa-solid fa-location-dot"></i> Vizag - BeachRoad</p>
+                <p>This Property offers:</p>
+                <p class="break">✓ Breakfast</p>
+                <p class="break">✓ Free-Wifi</p>
+            </div>
+            <div class="hotel-rev">
+                <p>Exellent</p>
+                <div class="rat">9.0</div>
+                <p>123 reviews</p>
+                <div class="cost">
+                    <p>per night before taxes & Fees:</p>
+                    <h3>Rs. 20,000</h3>
+                    <p class="cancel">+Free Cancellation</p>
+                </div>
+            </div>
+            <div class="avail"><button>See availability  ></button></div>
+        </div>
+        <div class="hotel-disp">
+            <div class="img img-1"><img src="Assets/room8.jpg" alt="img" class="room-1"></div>
+            <div class="hotel-abt">
+                <h2>SVN lakepalace</h2>
+                <p class="star">★★★★</p>
+                <p><i class="fa-solid fa-location-dot"></i> Vizag - BeachRoad</p>
+                <p>This Property offers:</p>
+                <p class="break">✓ Breakfast</p>
+                <p class="break">✓ Free-Wifi</p>
+            </div>
+            <div class="hotel-rev">
+                <p>Exellent</p>
+                <div class="rat">9.1</div>
+                <p>100 reviews</p>
+                <div class="cost">
+                    <p>per night before taxes & Fees:</p>
+                    <h3>Rs. 19,000</h3>
+                    <p class="cancel">+Free Cancellation</p>
+                </div>
+            </div>
+            <div class="avail"><button>See availability  ></button></div>
+        </div>
+    </div>
+    
+    <div class="head2">
+        <h1>Browse by property types</h1>
+        <p>Different property types near you</p>
+    </div>
+    <div class="container3">
+        <div class="box1">
+            <img src="Assets/hotel.jpg" alt="img">
+            <h2>Hotels</h2>
+            <p>150 hotels near you</p>
+            <div class="green">Available now</div>
+        </div>
+        <div class="box1">
+            <img src="Assets/villa.jpg" alt="img">
+            <h2>Villas</h2>
+            <p>40 Villas near you</p>
+            <div class="green">Available now</div>
+        </div>
+        <div class="box1">
+            <img src="Assets/apartment.jpg" alt="img">
+            <h2>Apartments</h2>
+            <p>300 Apartments near you</p>
+            <div class="green">Available now</div>
+        </div>
+        <div class="box1">
+            <img src="Assets/cabin.jpg" alt="img">
+            <h2>Wooden Cabins</h2>
+            <p>80 Cabins near you</p>
+            <div class="green">Available now</div>
+        </div>
+    </div>
+
+    <div class="trend">
+        <h1>Trending Destinations</h1>
+        <p>Travellers most searched destinations</p>
+    </div>
+    <div class="cont">
+        <div class="paris">
+            <img src="Assets/paris.webp" alt="img">
+            <div class="par-nam"><h2>Paris</h2></div>
+        </div>
+        <div class="paris">
+            <img src="Assets/london.jpg" alt="img">
+            <div class="par-nam"><h2>London</h2></div>
+        </div>
+    </div>
+
+    <div class="cont2">
+        <div class="berlin">
+            <img src="Assets/berlin.jpg" alt="img">
+            <div class="ber-nam"><h2>Berlin</h2></div>
+        </div>
+        <div class="berlin">
+            <img src="Assets/nether.jpg" alt="img">
+            <div class="ber-nam"><h2>Netherlands</h2></div>
+        </div>
+        <div class="berlin">
+            <img src="Assets/new.jpg" alt="img">
+            <div class="ber-nam"><h2>New York</h2></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="bot-but"><button>List your property</button></div>
+    </div>
+    <div class="follow">
+        <div><h3>Follow me on:</h3></div>
+        <div class="facebook"><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
+        <div class="twitter"><a href="#"><i class="fa-brands fa-x-twitter"></i></a></div>
+        <div class="youtube"><a href="#"><i class="fa-brands fa-youtube"></i></a></div>
+        <div class="insta"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+    </div>
+</body>
+</html>
